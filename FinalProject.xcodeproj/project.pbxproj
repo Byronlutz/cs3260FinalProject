@@ -10,10 +10,13 @@
 		03BBBEFD2C696E5500E8B611 /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBEFC2C696E5500E8B611 /* FinalProjectApp.swift */; };
 		03BBBEFF2C696E5500E8B611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBEFE2C696E5500E8B611 /* ContentView.swift */; };
 		03BBBF012C696E5800E8B611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BBBF002C696E5800E8B611 /* Assets.xcassets */; };
-		03BBBF042C696E5800E8B611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BBBF032C696E5800E8B611 /* Preview Assets.xcassets */; };
 		03BBBF0E2C696E5900E8B611 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBF0D2C696E5900E8B611 /* FinalProjectTests.swift */; };
 		03BBBF182C696E5900E8B611 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBF172C696E5900E8B611 /* FinalProjectUITests.swift */; };
 		03BBBF1A2C696E5900E8B611 /* FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBF192C696E5900E8B611 /* FinalProjectUITestsLaunchTests.swift */; };
+		03BBBF272C696EDB00E8B611 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBF262C696EDB00E8B611 /* GameView.swift */; };
+		03BBBF2A2C69721400E8B611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BBBF292C69721400E8B611 /* Preview Assets.xcassets */; };
+		03BBBF2C2C69746600E8B611 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BBBF2B2C69746600E8B611 /* DatabaseManager.swift */; };
+		03BBBF2E2C69934B00E8B611 /* backgroundimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03BBBF2D2C69934B00E8B611 /* backgroundimage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +41,15 @@
 		03BBBEFC2C696E5500E8B611 /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		03BBBEFE2C696E5500E8B611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03BBBF002C696E5800E8B611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03BBBF032C696E5800E8B611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03BBBF092C696E5900E8B611 /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BBBF0D2C696E5900E8B611 /* FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectTests.swift; sourceTree = "<group>"; };
 		03BBBF132C696E5900E8B611 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BBBF172C696E5900E8B611 /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		03BBBF192C696E5900E8B611 /* FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03BBBF262C696EDB00E8B611 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		03BBBF292C69721400E8B611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03BBBF2B2C69746600E8B611 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		03BBBF2D2C69934B00E8B611 /* backgroundimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundimage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,20 +100,15 @@
 		03BBBEFB2C696E5500E8B611 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				03BBBF282C6971BB00E8B611 /* Preview Content */,
 				03BBBEFC2C696E5500E8B611 /* FinalProjectApp.swift */,
 				03BBBEFE2C696E5500E8B611 /* ContentView.swift */,
+				03BBBF262C696EDB00E8B611 /* GameView.swift */,
+				03BBBF2D2C69934B00E8B611 /* backgroundimage.jpg */,
 				03BBBF002C696E5800E8B611 /* Assets.xcassets */,
-				03BBBF022C696E5800E8B611 /* Preview Content */,
+				03BBBF2B2C69746600E8B611 /* DatabaseManager.swift */,
 			);
 			path = FinalProject;
-			sourceTree = "<group>";
-		};
-		03BBBF022C696E5800E8B611 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				03BBBF032C696E5800E8B611 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		03BBBF0C2C696E5900E8B611 /* FinalProjectTests */ = {
@@ -125,6 +126,14 @@
 				03BBBF192C696E5900E8B611 /* FinalProjectUITestsLaunchTests.swift */,
 			);
 			path = FinalProjectUITests;
+			sourceTree = "<group>";
+		};
+		03BBBF282C6971BB00E8B611 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03BBBF292C69721400E8B611 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03BBBF042C696E5800E8B611 /* Preview Assets.xcassets in Resources */,
+				03BBBF2A2C69721400E8B611 /* Preview Assets.xcassets in Resources */,
 				03BBBF012C696E5800E8B611 /* Assets.xcassets in Resources */,
+				03BBBF2E2C69934B00E8B611 /* backgroundimage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BBBF2C2C69746600E8B611 /* DatabaseManager.swift in Sources */,
 				03BBBEFF2C696E5500E8B611 /* ContentView.swift in Sources */,
+				03BBBF272C696EDB00E8B611 /* GameView.swift in Sources */,
 				03BBBEFD2C696E5500E8B611 /* FinalProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
